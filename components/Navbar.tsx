@@ -13,17 +13,19 @@ const Navbar = () => {
         <Link href="/premium">
           <div>Premium</div>
         </Link>
-        <Link href="/profile">
+        {/* <Link href="/profile">
           <div>Profile</div>
+        </Link> */}
+        <Link href="/">
+          <div>Home</div>
         </Link>
 
-        <Link href="/auth/login">
+        {/* <Link href="/auth/login">
           <div>Login</div>
         </Link>
         <Link href="/auth/signup">
           <div>Signup</div>
-        </Link>
-        <Button name={"Logout"} />
+        </Link> */}
       </div>
     </div>
   );
